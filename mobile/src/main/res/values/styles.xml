@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.MovieFlix.DetailsRatingBar" parent="Widget.AppCompat.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/details_ratingbar_bkg</item>
+        <item name="android:indeterminateDrawable">@drawable/details_ratingbar_bkg</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <!-- Navigation share button-->
+
+    <style name="Widget.MovieFlix.NavigationShareButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="shareIconColor">#ffffff</item>
+        <item name="colorButtonNormal">@color/v3_accent</item>
+    </style>
+
+    <!-- SearchView -->
+
+    <style name="Widget.MovieFlix.SearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="goIcon">@drawable/ic_search</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.MovieFlix.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="Widget.MovieFlix.Classic.Toolbar" parent="Widget.MovieFlix.Toolbar">
+        <item name="android:background">@drawable/classic_toolbar_bkg</item>
+    </style>
+
+    <!-- Toolbar title -->
+    <style name="Widget.MovieFlix.Toolbar.Title">
+        <item name="android:textSize">@dimen/toolbar_title_size</item>
+    </style>
+
+    <style name="Widget.MovieFlix.Classic.Toolbar.Title" parent="Widget.MovieFlix.Toolbar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Toolbar popup -->
+    <style name="Widget.MovieFlix.Toolbar.Popup" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Widget.MovieFlix.Classic.Toolbar.Popup" parent="Widget.MovieFlix.Toolbar.Popup" />
+
+    <!-- Widget -->
+    <style name="Widget.MovieFlix.Classic.RatingBar" parent="@android:style/Widget.Holo.RatingBar">
+        <item name="android:isIndicator">true</item>
+        <item name="android:maxHeight">@dimen/video_rating_size</item>
+        <item name="android:minHeight">@dimen/video_rating_size</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:progressDrawable">@drawable/movieflix_rating_bar</item>
+    </style>
+
+    <!-- Prepare Watch -->
+
+    <style name="PrepareWatchProgressBarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/movieflix_progress</item>
+    </style>
+
+    <style name="PrepareWatchStatusText">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Second launch dialog -->
+    <style name="SecondLaunchDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textSize">@dimen/second_launch_dialog_button_text_size</item>
+    </style>
+
+    <style name="SecondLaunchDialogTitle">
+        <item name="android:textSize">@dimen/second_launch_dialog_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondLaunchDialogText0">
+        <item name="android:textSize">@dimen/second_launch_dialog_text_size</item>
+    </style>
+
+    <style name="SecondLaunchDialogText1">
+        <item name="android:textSize">@dimen/second_launch_dialog_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondLaunchDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/second_launch_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/second_launch_dialog_out</item>
+    </style>
+
+    <!-- Other -->
+
+    <style name="FullscreenDialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="WatchButton">
+        <item name="android:background">@drawable/movieflix_watch_selector</item>
+        <item name="android:shadowColor">@color/classic_text_shadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/classic_watch_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DownloadOpenButton">
+        <item name="android:minHeight">@dimen/video_download_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/video_download_text</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="VideoItemSelectButton">
+        <item name="android:background">@drawable/movieflix_spinner</item>
+        <item name="android:minHeight">@dimen/video_spinner_height</item>
+        <item name="android:textSize">@dimen/video_spinner_text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.Widget.Stepper.Done" parent="TextAppearance.MaterialCompat.Body1">
+
+    </style>
+
+    <style name="TextAppearance.Widget.Stepper.Selected" parent="TextAppearance.MaterialCompat.Body2">
+
+    </style>
+
+    <style name="TextAppearance.Widget.Stepper.Normal" parent="TextAppearance.MaterialCompat.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Widget.Stepper" parent="">
+        <item name="step_normal_color">@color/material_grey_500</item>
+        <item name="step_activated_color">@color/material_blue_500</item>
+        <item name="step_done_icon">@drawable/ic_done_white_16dp</item>
+        <item name="step_animation_duration">@android:integer/config_shortAnimTime</item>
+        <item name="step_line_color">@color/material_grey_500</item>
+        <item name="step_error_highlight_color">@color/material_red_500</item>
+    </style>
+
+    <style name="TextAppearance"/>
+
+    <style name="TextAppearance.MaterialCompat"/>
+
+    <style name="TextAppearance.MaterialCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="DialogWindowTitle_Custom" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <!--<item name="android:windowTitleStyle">@style/TextAppearance_DialogWindowTitle</item>-->
+        <item name="colorAccent">#0f9d58</item>
+
+    </style>
+
+    <style name="TextAppearance_DialogWindowTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textColor">#212121</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="GreenButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">#0f9d58</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar.Translucent">
+        <item name="colorAccent">#0f9d58</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>

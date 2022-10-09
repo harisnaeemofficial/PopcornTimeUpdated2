@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="second_launch_dialog_btn_text" translatable="false">SHARE</string>
+    <string name="second_launch_dialog_header" translatable="false">PLEASE SUPPORT US!</string>
+    <string name="second_launch_dialog_text1" translatable="false">The MovieFlix revolution is not just about online streaming, it\'s way greater than that. But it cannot happen, if you don\'t help us!</string>
+    <string name="second_launch_dialog_text2" translatable="false">We\'ve never asked for anything in return for all the hard work we\'re putting in to this project. Now we\'re asking you for just one thing, which seems so small, but is SO important, way more important than you think:</string>
+    <string name="second_launch_dialog_text3" translatable="false">SHARE MovieFlix</string>
+    <string name="second_launch_dialog_text4" translatable="false">You cannot understand how helpful this little share is to us. To this revolution.</string>
+
+    <string name="seasons" translatable="false">Seasons</string>
+    <string name="dubbing" translatable="false">Dubbing</string>
+
+    <string name="movie_marked_as_watched" translatable="false">Movie marked as watched</string>
+    <string name="movie_marked_as_unwatched" translatable="false">Movie marked as unwatched</string>
+    <string name="episode_marked_as_watched" translatable="false">Episode marked as watched</string>
+    <string name="episode_marked_as_unwatched" translatable="false">Episode marked as unwatched</string>
+    <string name="file" translatable="false">File</string>
+</resources>

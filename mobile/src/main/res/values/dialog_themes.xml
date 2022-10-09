@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+
+    <style name="Theme.MovieFlix.Dialog.Base" parent="Theme.AppCompat.Dialog.Alert" />
+
+    <style name="Theme.MovieFlix.Dialog" parent="Theme.MovieFlix.Dialog.Base" />
+</resources>
